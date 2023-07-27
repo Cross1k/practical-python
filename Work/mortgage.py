@@ -27,5 +27,4 @@ else:
     print('over_paid', round(-over_paid, 2))
     principal = 0
 
-print('total_paid', round(total_paid,2))
-print('Month', month)
+print(f'Total paid is ${total_paid:0.2f} and over paid was ${-over_paid:0.2f} in {month} months')
